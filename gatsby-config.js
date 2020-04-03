@@ -58,7 +58,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Quicksand:700', 'Merriweather:300,700'],
+          families: ['Roboto:700', 'Merriweather:300,700'],
         },
       },
     },

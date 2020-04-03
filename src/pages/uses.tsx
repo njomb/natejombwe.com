@@ -4,7 +4,6 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Skill from '../components/skill'
 import * as Flag from '../components/flags'
-// import Cv from "../assets/pdf/cv_jacob_herper.pdf";
 
 const Uses = () => (
   <Layout>

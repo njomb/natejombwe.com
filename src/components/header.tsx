@@ -18,13 +18,6 @@ class Header extends React.Component {
     showMenu: false,
   }
 
-  componentDidMount() {
-    console.log(
-      '%c\n\n\nBuilt with love and Gatsby.js\nWant to hire me? Get in touch: jacob@herper.uk\n\n\n',
-      'color:#663399;font-weight:bold;font-size:14px',
-    )
-  }
-
   handleClickMenu = () => this.setState({ showMenu: true })
 
   render() {
